@@ -1,0 +1,86 @@
+body
+{
+background-color: white;
+}
+
+#backBox
+{
+width: 900px;
+height: 900px;
+border-radius: 15px;
+background: black;
+background: linear-gradient(black, white);
+margin-left: auto;
+margin-right: auto;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#mainBox
+{
+width: 95%;
+height: 95%;
+border-radius: 10px;
+background: red;
+background: linear-gradient(red, white);
+margin-left: auto;
+margin-right: auto;
+margin-top: 5px; 
+margin-bottom: 20px; 
+
+}
+
+.invisible
+{
+font-size: 0px;
+visibility: hidden;	
+}
+
+h1
+{
+text-align: center;
+padding-top: 50px;
+font-family: helvetica, georgian;
+font-weight: bold;
+font-size: 60px;
+text-shadow: 5px 5px 5px black;
+color: white;
+
+}
+
+#buttons
+{
+text-align: center;
+/*margin-left: 60;
+margin-right: 60;*/
+}
+
+#buttons button
+{
+background-color:white;
+width: 90px;
+height: 40px;
+margin: 15px;
+font-style: bold;
+border: solid;
+border-color: black;
+border-radius: 5px;
+font-family: helvetica, georgian;
+font-weight: bold;
+font-size: 16px;
+box-shadow: 5px 5px 5px black;
+
+
+}
+
+#buttons button:hover
+{
+background-color: black;
+color: white;	
+}
+
+p
+{
+padding-left: 10px;
+}
+
